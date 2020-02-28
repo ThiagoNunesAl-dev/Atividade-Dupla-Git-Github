@@ -2,3 +2,64 @@
     margin: 0;
     padding: 0
 }
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center
+}
+
+.container_header {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.nome_header {
+    height: 100%;
+    width: 250px;
+    display: flex;
+    align-items: center
+}
+
+.nome_header h2 {
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.menu {
+    height: 100%;
+    width: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.menu_lista {
+    display: flex;
+    list-style: none;
+}
+
+.menu_lista li {
+    padding: 15px 40px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.menu_lista li a {
+    text-decoration: none;
+    color: black
+}
+
+.menu_lista li a:hover {
+    text-decoration: underline;
+    color: #6EB6DC;
+    text-shadow: 1px 0px 10px #6EB6DC
+}
+
+
+
